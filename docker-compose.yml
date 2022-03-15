@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    image: rakkyo/getnearrankdocker
+    volumes:
+      - .:/output:rw
+    
+    # 以下の記述はデフォルトで有効なので不要だが、分かりやすさのため
+    tty: true
+    stdin_open: true
