@@ -4,6 +4,8 @@
 [GetNearRankScript](https://github.com/rakkyo150/GetNearRankScript)をDockerで動かすためのDockerイメージです。<br>
 Docker環境を導入さえすれば、OSなどのPC環境に関係なくGetNearRankScriptが動かせます。
 
+Docker Hub : https://hub.docker.com/repository/docker/rakkyo/getnearrankdocker
+
 ## 使い方
 
 まずは、作成されるプレイリストを置きたいディレクトリを作成し、そこに移動します。
