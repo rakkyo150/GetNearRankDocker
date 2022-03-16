@@ -25,7 +25,8 @@ docker run --rm -it -v ${pwd}:/output rakkyo/getnearrankdocker
 ```
 
 初回実行時は、設定を入力する必要があります。<br>
-各設定項目の内容については[こちら](https://github.com/rakkyo150/GetNearRankScript)からご確認ください。
+各設定項目の内容については[こちら](https://github.com/rakkyo150/GetNearRankScript)からご確認ください。<br>
+最終的に、Config.jsonとプレイリストが生成されます。<br>
 
 
 ### docker-composeを使う場合
@@ -39,7 +40,7 @@ docker-compose run --rm app
 ```
 
 初回実行時は、指示に従って設定を入力してください。<br>
-各設定項目の内容については[こちら](https://github.com/rakkyo150/GetNearRankScript)からご確認ください。
+各設定項目の内容については[こちら](https://github.com/rakkyo150/GetNearRankScript)からご確認ください。<br>
 最終的に、Config.jsonとプレイリストが生成されます。<br>
 
 ## 設定を変更する場合
